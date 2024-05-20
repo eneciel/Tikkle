@@ -1,0 +1,90 @@
+/*LEFT AREA*/
+
+.nav-leftbox {
+    width: 25vw;
+    background-color: saddlebrown;
+    display: flex;
+    align-items: center;
+}
+
+#nav-logo {
+    margin: 0 2em;
+}
+
+/*CENTER AREA*/
+
+.nav-centerbox {
+    width: 25vw;
+    background-color: saddlebrown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchcontainer {
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    border: grey solid 2px;
+    border-radius: 0.8em;
+    display: flex;
+    align-items: center;
+}
+
+.search:focus {
+    border: var(--primary) solid 2px;
+}
+
+.search img {
+    padding: 0.4em;
+}
+
+input {
+    color: white;
+    font-family: "Noto Sans";
+    height: 1.6em;
+    background: none;
+    border: none;
+    overflow: hidden;
+    resize: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+/*RIGHT AREA*/
+
+.nav-rightbox {
+    width: 25vw;
+    background-color: saddlebrown;
+    display: flex;
+    justify-content: end;
+}
+
+.navbutton {
+    width: 1.2em;
+    height: 1.2em;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.4em;
+    margin: 1em;
+}
+
+.navbutton:hover {
+    background-color: gainsboro;
+}
+
+#nav-profilebutton {
+    width: 1.5em;
+    height: 1.5em;
+    background-color: gray;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
