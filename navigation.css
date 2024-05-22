@@ -1,7 +1,13 @@
+nav {
+    width: 100vw;
+    margin: 0;
+    position: fixed;
+}
+
 /*LEFT AREA*/
 
 .nav-leftbox {
-    width: 25vw;
+    width: 22vw;
     background-color: saddlebrown;
     display: flex;
     align-items: center;
@@ -58,7 +64,6 @@ input:focus {
 /*RIGHT AREA*/
 
 .nav-rightbox {
-    width: 25vw;
     background-color: saddlebrown;
     display: flex;
     justify-content: end;

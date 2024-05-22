@@ -1,0 +1,54 @@
+#sidebar {
+    width: 12vw;
+    height: 100vh;
+    position: fixed;
+    background-color: cadetblue;
+    padding: 4.5em 0;
+    margin: 0;
+    z-index: -1;
+}
+
+.streamer-rowbox {
+    display: flex;
+    align-items: center;
+}
+
+.streamer-rowbox div {
+    padding: 0.4em 1em;
+}
+
+.streamer-rowbox h4 {
+    padding: 0;
+    margin: 0;
+}
+
+.streamer-rowbox p {
+    color: gray;
+    font-size: 0.8em;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+#sidemenubox h3 {
+    font-size: 1em;
+    padding: 0 2em;
+    margin: 1em 0;
+}
+
+#sidemenubox h5 {
+    font-size: 0.8em;
+    padding: 1em 2em;
+    margin: 0;
+}
+
+#offline p > img {
+    display: none;
+}
+
+/* FOOTER */
+
+#footer {
+
+}
