@@ -15,12 +15,14 @@ nav {
 .nav-leftbox {
     width: 22vw;
     background-color: saddlebrown;
+    box-sizing: border-box;
+    padding: 0 2em;
     display: flex;
     align-items: center;
 }
 
 #nav-logo {
-    margin: 0 2em;
+    height: 2em;
 }
 
 /*CENTER AREA*/
