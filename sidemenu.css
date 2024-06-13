@@ -2,7 +2,7 @@
     width: 12%;
     min-width: 240px;
     height: 92vh;
-    background-color: cadetblue;
+    background-color: rgba(255, 255, 255, 0.1);
     padding: 0;
     margin: 0;
 }

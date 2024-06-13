@@ -3,7 +3,7 @@ nav {
     height: 8vh;
     color: white;
     display: flex;
-    background-color: aliceblue;
+    background-color: var(--primary-aqua);
     justify-content: space-between;
     padding: 0;
     margin: 0;
@@ -14,7 +14,6 @@ nav {
 
 .nav-leftbox {
     width: 22vw;
-    background-color: saddlebrown;
     box-sizing: border-box;
     padding: 0 2em;
     display: flex;
@@ -29,7 +28,6 @@ nav {
 
 .nav-centerbox {
     width: 25vw;
-    background-color: saddlebrown;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,7 +46,7 @@ nav {
 }
 
 .search:focus {
-    border: var(--primary) solid 2px;
+    border: black solid 2px;
 }
 
 .search img {
@@ -72,7 +70,6 @@ input:focus {
 /*RIGHT AREA*/
 
 .nav-rightbox {
-    background-color: saddlebrown;
     display: flex;
     align-items: center;
     justify-content: end;
