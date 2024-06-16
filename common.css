@@ -69,7 +69,7 @@ main {
 /* HOME */
 
 #home {
-    width: 60%;
+    width: 64%;
     display: block;
 }
 
@@ -186,10 +186,11 @@ main {
 /* CHAT AREA */
 
 .chatbox {
-    width: 360;
+    width: 360px;
     height: 92vh;
     display: flex;
     flex-direction: column;
+    position: right;
 }
 
 .chatbox-top {
