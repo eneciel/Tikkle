@@ -62,6 +62,7 @@ button {
 }
 
 main {
+    width: 100vw;
     position: relative;
     display: flex;
 }
@@ -69,8 +70,7 @@ main {
 /* HOME */
 
 #home {
-    width: 64%;
-    display: block;
+    flex: 16 1 auto;
 }
 
 /* STREAM */
@@ -186,7 +186,7 @@ main {
 /* CHAT AREA */
 
 .chatbox {
-    width: 360px;
+    flex: 3 1 auto;
     height: 92vh;
     display: flex;
     flex-direction: column;
@@ -210,4 +210,10 @@ main {
 .chatbox-bottom {
     height: 6vh;
     background-color: gray;
+}
+
+/* COMMUNITY */
+
+.community {
+    width: 50vw;
 }

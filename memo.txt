@@ -1,0 +1,32 @@
+index {
+    sidemenu {
+        followings {
+            online {
+                Quackity
+                Tubbo
+                Rubius
+            }
+            offline {
+                TinaKitten
+                Foolish
+                Roier
+                Vegetta
+            }
+        }
+        for you {
+            Bagi
+            Cellbit
+            Baghera
+        }
+    }
+    discover {}
+    tikkies {}
+    profile {}
+}
+
+streaming {
+    streamer page {
+        
+    }
+    language tag
+}
