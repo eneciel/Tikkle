@@ -98,7 +98,7 @@ main {
 /* CC CONTAINER */
 
 .home-cc-container {
-    width: 1570px;
+    width: 92vw;
     display: flex;
     overflow: scroll;
 }
@@ -194,7 +194,7 @@ main {
 
 .home-commubox {
     width: 480px;
-    background-color: aliceblue;
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 1em;
     padding: 1em;
 }
@@ -213,6 +213,10 @@ main {
 
 .home-commu-header .cc-live img {
     border: #1e1e1e solid 3px;
+}
+
+.home-commu-content {
+    margin-top: 1em;
 }
 
 /* STREAM */
