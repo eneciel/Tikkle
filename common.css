@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'nova';
+    src: url();
+}
+
 html, body {
     color: white;
     font-family: "Noto Sans", sans-serif;
@@ -40,6 +45,12 @@ li {
     padding: 0 1em;
 }
 
+a {
+    color: white;
+    display: flex;
+    text-decoration: none;
+}
+
 button {
     color: white;
     font-size: 1em;
@@ -67,10 +78,141 @@ main {
     display: flex;
 }
 
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 /* HOME */
 
 #home {
     flex: 16 1 auto;
+}
+
+#home .container {
+    padding: 1em 4em;
+    user-select: none;
+}
+
+/* CC CONTAINER */
+
+.home-cc-container {
+    width: 1570px;
+    display: flex;
+    overflow: scroll;
+}
+
+.home-cc-container::-webkit-scrollbar {
+    display: none;
+}
+
+.home-ccbox {
+    min-width: 200px;
+    max-width: 200px;
+    border-radius: 1em;
+    padding: 2em 1em;
+    margin: 0 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 200ms ease-out;
+}
+
+.home-ccbox:hover {
+    background-color: var(--primary-blue);
+    transition: 125ms ease-in;
+}
+
+.cc-live {
+    border: red solid 4px;
+    border-radius: 999px;
+    transition: 200ms ease-out;
+}
+
+.home-ccbox:hover .cc-live img {
+    border: var(--primary-blue) solid 6px;
+    transition: 125ms ease-in;
+}
+
+.home-ccbox img {
+    width: 100px;
+    height: 100px;
+    border-radius: 999px;
+}
+
+.cc-live img {
+    border: #1e1e1e solid 6px;
+}
+
+.home-ccbox h4 {
+    margin: 1em 0 0;
+}
+
+.home-ccbox > .tagrow {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.home-ccbox > .tagrow a {
+    margin: 4px;
+}
+
+/* FOLLOWINGS */
+
+#followings h2 {
+    padding: 0 2em;
+}
+
+.home-ccbox-row {
+    width: 200px;
+    border-radius: 1em;
+    padding: 1em;
+    margin: 0 12px;
+    display: flex;
+    align-items: center;
+    transition: 200ms ease-out;
+}
+
+.home-ccbox-row:hover {
+    background-color: var(--primary-blue);
+    transition: 125ms ease-in;
+}
+
+.home-ccbox-row img {
+    width: 48px;
+    height: 48px;
+    border-radius: 999px;
+}
+
+.home-ccbox-row h4 {
+    margin: 0 0 0 1em;
+}
+
+/* HOME COMMUNITY */
+
+.home-commubox {
+    width: 480px;
+    background-color: aliceblue;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.home-commu-header .home-ccbox-row {
+    padding: 8px;
+}
+
+.home-commu-header .ccpfpbox {
+    border: red solid 3px;
+}
+.home-commu-header .ccpfpbox img {
+    width: 36px;
+    height: 36px;
+}
+
+.home-commu-header .cc-live img {
+    border: #1e1e1e solid 3px;
 }
 
 /* STREAM */
@@ -186,7 +328,6 @@ main {
 /* CHAT AREA */
 
 .chatbox {
-    flex: 3 1 auto;
     height: 92vh;
     display: flex;
     flex-direction: column;
@@ -213,7 +354,3 @@ main {
 }
 
 /* COMMUNITY */
-
-.community {
-    width: 50vw;
-}

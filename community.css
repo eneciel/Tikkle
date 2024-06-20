@@ -1,0 +1,134 @@
+.community {
+    display: flex;
+}
+
+.community h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.community p {
+    padding: 0;
+    margin: 0;
+}
+
+.community h5, .home-commubox h5 {
+    color: grey;
+    font-size: 0.75em;
+    font-weight: 300;
+    padding: 0;
+    margin: 0 8px;
+}
+
+/* BANNER */
+
+.banner {
+    height: 300px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    overflow: hidden;
+}
+
+.banner .cc-container {
+    width: 80%;
+    background-color: #1e1e1e;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    padding: 2em;
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.5);
+}
+
+.banner .stream-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner .streamtitle {
+    padding: 0 4em;
+}
+
+/* LEFT MENU */
+
+.community > .leftmenu {
+    width: 300px;
+}
+
+.community > .leftmenu > ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.community > .leftmenu li {
+    font-weight: 500;
+    padding: 1em;
+}
+
+/* CONTENT */
+
+.community > .content {
+    padding: 2em 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.postcontainer {
+    background-color: black;
+}
+
+.post-header {
+    width: 600px;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post-user {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+
+.post-profile {
+    width: 36px;
+    height: 36px;
+    background-color: aquamarine;
+    border-radius: 999px;
+    display: flex;
+    margin: 4px;
+}
+
+.post-profile img {
+    border-radius: 999px;
+}
+
+.post-from {
+    padding: 4px 16px;
+}
+
+.post-from h3, .post-from p {
+    padding: 0;
+    margin: 0;
+}
+
+.post-header .morebtn {
+    width: 24px;
+    height: 24px;
+    display: flex;
+}
+
+/* POST INFO */
+
+.post-info {
+    display: flex;
+    padding: 1em;
+}
+
+/* POST CONTEXT */
+
+.post-context {
+    padding: 0 1.25em 1em;
+}
